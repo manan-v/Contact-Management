@@ -1,0 +1,49 @@
+
+
+.cols {
+  background-color: bisque;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 10px; 
+  margin-bottom: 10px; 
+}
+
+.Edit {
+  background-color: #259453; /* Change to a green color */
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.Edit:hover {
+  background-color: #0c3d20; /* Darker green on hover */
+}
+
+.Del {
+  background-color: #e74c3c; /* Change to a red color */
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.Del:hover {
+  background-color: #68170e; /* Darker red on hover */
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px; /* Adjust the spacing between buttons */
+}
+
+button{
+  width:71px;
+}
